@@ -1,0 +1,429 @@
+<!DOCTYPE html><!--Harley LA-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="events.css" rel="stylesheet" type="text/css">
+        <link rel="shortcut icon" type="images/png" href="favicon.png">
+        <title>CSS - Events</title>
+    </head>
+    <body>
+        <div class="nav_bar">
+            <div class="left_section">
+              <img draggable="false" class="logo" src="logonav.png" alt="css logo">
+            </div>
+            <div class="middle_section">
+                <div class="Home">
+                  <a class="link_nav" href="Home.html">
+                    <div class="link_text">Home</div>
+                  </a>
+                </div>
+                <div class="Vision">
+                  <a class="link_nav" href="Vision and Mission.html">
+                    <div class="link_text">Goals</div>
+                  </a>
+                </div>
+                <div class="Events">
+                  <a class="link_nav" href="Events.html">
+                    <div class="link_text">Events</div>
+                  </a>
+                </div>
+                <div class="About">
+                  <a class="link_nav" href="About Us.html">
+                    <div class="link_text">About</div>
+                  </a>
+                </div>
+              </div>
+
+            <div class="right_section">
+            </div>
+        </div>
+        <div class="events-navbar">  
+            <nav class="hidden">
+                <a href="#upcoming-events">Upcoming Events</a>
+                <a href="#past-events">Past Events</a>
+                <a href="#achievements">Achievements</a>
+            </nav>
+        </div>
+        <div class="events-grid">
+            <img class="left-bg-img hidden" src="images/shape1.png" width="250px" height="auto">
+            <img class="right-bg-img hidden" src="images/shape2.png" width="300px" height="auto">
+            <img class="right-bg-imgsec hidden" src="images/shape2.png" width="250px" height="auto">
+            <div id="past-events">
+                <h2 class="hidden">PAST EVENTS</h2>
+                <div class="event-array">
+                    <div class="event-row">
+                        <div class="event-container">
+                            <div class="event">
+                                <div class="event-date" onmouseenter="startShow(this.nextElementSibling)" onmouseleave="stopShow(this.nextElementSibling)">
+                                    <p>Nov. 18, 2022</p>
+                                </div>
+                                <div class="slideshow-container" onmouseenter="startShow(this)" onmouseleave="stopShow(this)">
+                                    <div class="preview-image">
+                                        <img src="images/event-slides/cs-ga/1.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/cs-ga/1.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/cs-ga/2.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/cs-ga/3.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/cs-ga/4.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/cs-ga/5.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/cs-ga/6.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/cs-ga/7.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/cs-ga/8.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/cs-ga/9.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="desc-box">
+                                <p class="title">CompSci General Assembly</p>
+                                <p class="content">Finally, the wait is over! We are thrilled to inform that there will be a 𝙂𝙚𝙣𝙚𝙧𝙖𝙡 𝘼𝙨𝙨𝙚𝙢𝙗𝙡𝙮 𝙛𝙤𝙧 𝘾𝙤𝙢𝙥𝙪𝙩𝙚𝙧 𝙎𝙘𝙞𝙚𝙣𝙘𝙚.
+                                    Yay! This general assembly will take place on 𝗡𝗼𝘃𝗲𝗺𝗯𝗲𝗿 𝟭𝟴, 𝟮𝟬𝟮𝟮, 𝗶𝗻 𝗝𝘂𝘀𝘁𝗼 𝗔𝗹𝗯𝗲𝗿𝘁 𝗔𝘂𝗱𝗶𝘁𝗼𝗿𝗶𝘂𝗺 (𝗝𝗔𝗔) 𝗳𝗿𝗼𝗺 𝟳:𝟬𝟬 𝗔𝗠 𝘁𝗼 𝟭𝟮:𝟬𝟬 𝗣𝗠 (𝗙𝗶𝗿𝘀𝘁 𝗦𝗲𝘀𝘀𝗶𝗼𝗻) 𝗮𝗻𝗱 𝗳𝗿𝗼𝗺 𝟭:𝟬𝟬 𝗣𝗠 𝘁𝗼 𝟲:𝟬𝟬 𝗣𝗠 (𝗦𝗲𝗰𝗼𝗻𝗱 𝗦𝗲𝘀𝘀𝗶𝗼𝗻).</p>
+                                    <button onclick="readMore(this)">Read More</button>                                            
+                            </div>
+                        </div>
+                        <div class="event-container">
+                            <div class="event">
+                                <div class="event-date" onmouseenter="startShow(this.nextElementSibling)" onmouseleave="stopShow(this.nextElementSibling)">
+                                    <p>Nov. 4, 2020</p>
+                                </div>
+                                <div class="slideshow-container" onmouseenter="startShow(this)" onmouseleave="stopShow(this)">
+                                    <div class="preview-image">
+                                        <img src="images/event-slides/i-am-a-coder/1.png">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/i-am-a-coder/1.png">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/i-am-a-coder/2.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/i-am-a-coder/3.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/i-am-a-coder/4.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/i-am-a-coder/5.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/i-am-a-coder/6.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/i-am-a-coder/7.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/i-am-a-coder/8.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/i-am-a-coder/9.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/i-am-a-coder/10.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/i-am-a-coder/11.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="desc-box">
+                                <p class="title">&lt I am a Coder/ &gt Series</p>
+                                <p class="content">Sometimes you feel anxious as a student that maybe you’re not doing well in programming or currently you’re having a hard time catching up to the difficulty of the major subjects. Well, you’re not alone. Furthermore, PLM Computer Science Society would be grateful to extend a hand of help. To be an efficient coder or programmer, you should have proficiency in different programming languages, flexible problem-solving skills, and innovative and creative mind. &ltI am a Coder/&gt is a 7-week long series of posts designed to equip Computer Science students with knowledge and skills that will surely be helpful to their journey through this course.</p>                                    
+                                <button onclick="readMore(this)">Read More</button>                                            
+                                   
+                            </div>
+                        </div>
+                        <div class="event-container">
+                            <div class="event">
+                                <div class="event-date" onmouseenter="startShow(this.nextElementSibling)" onmouseleave="stopShow(this.nextElementSibling)">
+                                    <p>Nov. 29, 2022</p>
+                                </div>
+                                <div class="slideshow-container" onmouseenter="startShow(this)" onmouseleave="stopShow(this)">
+                                    <div class="preview-image">
+                                        <img src="images/event-slides/recet/1.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/recet/1.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/recet/2.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/recet/3.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/recet/4.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/recet/5.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/recet/6.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/recet/7.jpg">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/recet/8.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="desc-box">
+                                <p class="title">ReCET: Knights' Convention</p>
+                                <p class="content">Ready, get CET, go! One of the most awaited traditional event is bringing back the fun and excitement on-site! Mark up your calendars as on November 29, 2022, ReCET: Knights' Convention will surely keep you ah-ah-ah-alive and set the game on! Feeling excited? Fret not 'cuz this two-part event will be filled with discussions, engaging activities, and booths. Press continue and prepare yourselves, as this general assembly will definitely make you dancing kings and queens. Stay tuned for more details, Knights!
+                                    </p>
+                                <button onclick="readMore(this)">Read More</button>                                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event-row">
+                        <div class="event-container">
+                            <div class="event">
+                                <div class="event-date" onmouseenter="startShow(this.nextElementSibling)" onmouseleave="stopShow(this.nextElementSibling)">
+                                    <p>May 28, 2022</p>
+                                </div>
+                                <div class="slideshow-container" onmouseenter="startShow(this)" onmouseleave="stopShow(this)">
+                                    <div class="preview-image">
+                                        <img src="images/event-slides/ender-quest/1.png">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/ender-quest/1.png">
+                                    </div>
+                                    <div class="slides slideshow-fade">
+                                        <img src="images/event-slides/ender-quest/2.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="desc-box">
+                                <p class="title">Ender Quest</p>
+                                <p class="content">Get Ready!
+                                    Nice to see you again our fellow CS students! 
+                                    CS Ender Quest
+                                    We have a lot of exciting events coming...
+                                    Get ready as this coming May 28, 2022
+                                    </p>
+                                <button onclick="readMore(this)">Read More</button>                                            
+                            </div>
+                        </div>
+                        <div class="event-container">
+                            <div class="event">
+                                <div class="event-date">
+                                    <p>March 15, 2021</p>
+                                </div>
+                                <img src="images/event-stills/cs-week.png">
+                            </div>
+                            <div class="desc-box">
+                                <p class="title">CompSci Week</p>
+                                <p class="content">ROUND 1 CLEAR! Now it's time to prepare ourselves for the next level!
+                                    Get ready and join us as we have a week full of fun and action. Here goes the CS Week 2021 entitled, "RESTART: Readying For Round 2"!
+                                    Show off your hidden talents in singing and dancing in "Tinig at Tindig". Love art? Join us in the "New Layer". Create a team and compete with your fellow gamers in the "Uprise League". Let them know what block is the most superior in "Clash Of Classes". And show off your beauty, handsomeness, and intellect in "Unparalleled".
+                                    After all the hard work and stress, we deserve to have fun and have a good time! That'll be on March 15 - 19, 2021! See you there!
+                                    </p>
+                                <button onclick="readMore(this)">Read More</button>                                           
+                            </div>
+                        </div>
+                        <div class="event-container">
+                            <div class="event">
+                                <div class="event-date">
+                                    <p>Nov. 22, 2021</p>
+                                </div>
+                                <img src="images/event-stills/ready_set_grow.jpg">
+                            </div>
+                            <div class="desc-box">
+                                <p class="title">Ready, Set, Grow!</p>
+                                <p class="content">𝐑𝐄𝐀𝐃𝐘-𝐒𝐄𝐓-𝐆𝐑𝐎𝐖 𝟐𝟎𝟐𝟏 𝐢𝐬 𝐜𝐨𝐦𝐢𝐧𝐠 𝐨𝐧 𝐨𝐮𝐫 𝐰𝐚𝐲! 
+                                    Come and join us on our first event of the school year entitled "𝐑𝐄𝐀𝐃𝐘-𝐒𝐄𝐓-𝐆𝐑𝐎𝐖! " this incoming 𝐍𝐨𝐯𝐞𝐦𝐛𝐞𝐫 𝟐𝟐-𝟐𝟔, 𝟐𝟎𝟐𝟏. Get to learn about different aspects of tech fields through this week-long series webinars and workshops. Explore how technology can be applied in many industries and come up with your own ideas and discoveries!</p>
+                                <button onclick="readMore(this)">Read More</button>                                          
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="upcoming-events">
+                <h2 class="hidden">UPCOMING EVENTS</h2>
+                <div class="caught-up-msg hidden">
+                    <p>You're all caught up! Please <a href="https://www.facebook.com/PLMComputerScienceSociety/" target="_blank">visit the Computer Science Society facebook page</a> to be on the lookout for updates!</p>
+                </div>
+            </div>
+            <div id="achievements">
+                <h2 class="hidden">ACHIEVEMENTS</h2>
+                <div class="gallery">
+                    <div class="b-stretch">
+                        <div class="gallery-image">
+                            <img src="images\achievements\11th IT olympics\1.jpg">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="gallery-image">
+                            <img src="images\achievements\11th IT olympics\2.jpg">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="gallery-image">
+                            <img src="images\achievements\11th IT olympics\3.jpg">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="gallery-image">
+                            <img src="images\achievements\11th IT olympics\4.jpg">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="gallery-image">
+                            <img src="images\achievements\11th IT olympics\5.jpg">
+                        </div>
+                    </div>
+                    <div class="h-stretch">
+                        <div class="gallery-image">
+                            <img src="images\achievements\11th IT olympics\6.jpg">
+                        </div>
+                    </div>
+                    <div class="h-stretch">
+                        <div class="gallery-image">
+                            <img src="images\achievements\11th IT olympics\7.jpg">
+                        </div>
+                    </div>
+                    <div class="b-stretch">
+                        <div class="gallery-image">
+                            <img src="images\achievements\10th IT olympics\1.jpg">
+                        </div>
+                    </div>
+                    <div class="h-stretch">
+                        <div class="gallery-image">
+                            <img src="images\achievements\10th IT olympics\2.jpg">
+                        </div>
+                    </div>
+                    <div class="h-stretch">
+                        <div class="gallery-image">
+                            <img src="images\achievements\10th IT olympics\3.png">
+                        </div>
+                    </div>
+                    <div class="b-stretch">
+                        <div class="gallery-image">
+                            <img src="images\achievements\Hackalle\1.png">
+                        </div>
+                    </div>
+                    <div class="h-stretch">
+                        <div class="gallery-image">
+                            <img src="images\achievements\Hackalle\2.png">
+                        </div>
+                    </div>
+                    <div class="h-stretch">
+                        <div class="gallery-image">
+                            <img src="images\achievements\Hackalle\3.png">
+                        </div>
+                    </div>
+                    <div class="b-stretch">
+                        <div class="gallery-image">
+                            <img src="images\achievements\white hackfest\1.png">
+                        </div>
+                    </div>
+                    <div class="h-stretch">
+                        <div class="gallery-image">
+                            <img src="images\achievements\white hackfest\2.png">
+                        </div>
+                    </div>
+                    <div class="h-stretch">
+                        <div class="gallery-image">
+                            <img src="images\achievements\white hackfest\3.png">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="gallery-image">
+                            <img src="images\achievements\white hackfest\4.png">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="gallery-image">
+                            <img src="images\achievements\Sandbox\1.jpg">
+                        </div>
+                    </div>
+                    <div class="b-stretch">
+                        <div class="gallery-image">
+                            <img src="images\achievements\Sandbox\2.jpg">
+                        </div>
+                    </div>
+                    <div class="h-stretch">
+                        <div class="gallery-image">
+                            <img src="images\achievements\Sandbox\3.jpg">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="gallery-image">
+                            <img src="images\achievements\research\1.jpg">
+                        </div>
+                    </div>
+                    <div>
+                        <div class="gallery-image">
+                            <img src="images\achievements\research\2.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    <!--here footer-->
+    <div class="footer">
+        <div class="container">
+          <div class="aboutus">
+          <h2>About Us</h2>
+          <p>We are the Computer Science Society an organization within Pamantasan ng Lungsod ng Maynila (PLM) that serves as both beacon and haven for Computer Science Students. We assist and guide students with the most recent updates and events happening inside the campus. Not only that, but we also find ways and open doors that serves as oppurtunities for aspiring students with discernible talent and passion. Together with our team we'll ensure to help you to have a pleasant college experience in PLM. </p>
+          <ul class="social">
+            <li><a href="https://www.facebook.com/PLMComputerScienceSociety"><ion-icon name="logo-facebook"></ion-icon></a></li>
+          </ul>
+        </div>
+        <div class="quicklinks">
+          <h2>Quick Links</h2>
+          <ul class="quick">
+            <li><a href="About Us.html">About</a></li>
+            <li><a href="Vision and Mission.html">Goals</a></li>
+            <li><a href="Events.html">Events</a></li>
+            <li><a href="About Us.html">Team</a></li>
+            <li><a href="Home.html">Main</a></li>
+          </ul>
+        </div>
+        <div class="contact">
+          <h2>Contact Info</h2>
+          <ul class="info">
+            <li>
+              <span><ion-icon name="map-outline"></ion-icon></span>
+              <span>General Luna, <br>
+                 corner Muralla St, Intramuros, Manila, 1002 Metro Manila,</br>Philippines</span>
+            </li>
+            <li>
+              <span><ion-icon name="call-outline"></ion-icon></span>
+              <span><a href="tel:12345678">0927384923</a><br>
+                 <a href="tel:12345678">0983928373</a></span>
+            </li>
+            <li>
+              <span><ion-icon name="mail-outline"></ion-icon></span>
+              <span><a href="mailto:knowmore@email.com">plmcss.org@gmail.com</a></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+      <div class="botfooter">
+        <p>Copyright © Computer Science Society A.Y. 2022-2023</p>
+      </div>      
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+        <script src="events-js.js"></script>
+    </body> 
+</html>
